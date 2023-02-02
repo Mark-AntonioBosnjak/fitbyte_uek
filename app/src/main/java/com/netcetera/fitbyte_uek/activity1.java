@@ -27,6 +27,7 @@ public class activity1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity1);
 
+
         distanceView = (TextView) findViewById(R.id.distance_view);
         timeView = (TextView) findViewById(R.id.time_view);
 
