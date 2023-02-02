@@ -1,14 +1,32 @@
-<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".Activity1">
 
     <TextView
+        android:id="@+id/distance_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Activity 1"
-        android:textSize="30sp"
-        android:gravity="center_horizontal"/>
+        android:text="Total Distance:" />
+
+    <TextView
+        android:id="@+id/distance_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0.0 km" />
+
+    <TextView
+        android:id="@+id/time_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Elapsed Time:" />
+
+    <TextView
+        android:id="@+id/time_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0 min, 0 sec" />
 
 </LinearLayout>
